@@ -40,7 +40,7 @@ class Query(LoggingObject):
         live.cmd(path, *args)
     """
 
-    def __init__(self, address=("localhost", 9000), listen_port=9001):
+    def __init__(self, address=("localhost", 11000), listen_port=11001):
         self.beat_callback = None
         self.startup_callback = None
         self.listen_port = listen_port
